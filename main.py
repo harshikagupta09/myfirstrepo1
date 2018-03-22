@@ -98,6 +98,8 @@ if spy_age > 17 and spy_age < 60:
                   print("You can always do better.")
               else:
                   print("We can always use somebody to help in the office.")
+   #################################here solve the problem of concatenating string to int and string to float##########################
+ 
                   spy_name = input("Welcome to spy chat, you must tell me your spy name first: ")
                   spy_age = str(input("What is your age?"))
                   spy_rating = str(input("What is your spy rating?"))
