@@ -16,10 +16,11 @@ spy = Spy('Harshika', 'Ms.', 20, 4.6)
 
 # chat class
 class ChatMessage:
-    def __init__(self, name, message):
+    def __init__(self, name, message, itisyou):
         self.name = name
         self.message = message
         self.time = datetime.now()
+        self.itisyou = itisyou
 
 
 
